@@ -36,7 +36,4 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    class ExecutorApp : Application() {
-        val executor: ExecutorService = Executors.newSingleThreadExecutor()
-    }
 }
