@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Lab6_2">
         <activity
-            android:name=".MainActivityCoroutines"
+            android:name=".ActivityGlide"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,9 +22,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".MainActivityCoroutines"
             android:exported="true">
         </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
     </application>
 
 </manifest>
